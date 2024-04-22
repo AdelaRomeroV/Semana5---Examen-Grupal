@@ -8,26 +8,14 @@ namespace Trabajo_Grupal
 {
     internal class Soldado : Unidades
     {
-        private float precio;
-        private float salud;
-        private float turnos;
-        public override float Precio()
-        {
-            return 0;
-        }
 
-        public override float Salud()
+        public Soldado(float precio, float salud, float turnos, float ataque)
         {
-            return 0;
-        }
-        public override float Ataque()
-        {
-            return 0;
-        }
-
-        public override float Turnos()
-        {
-            return 0;
+            this.precio = precio;
+            this.salud = salud;
+            this.turnos = turnos;
+            this.ataque = ataque;
         }
     }
+
 }

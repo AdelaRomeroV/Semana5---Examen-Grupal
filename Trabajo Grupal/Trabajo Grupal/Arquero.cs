@@ -8,25 +8,14 @@ namespace Trabajo_Grupal
 {
     internal class Arquero : Unidades
     {
-        private float precio;
-        private float salud;
-        private float turnos;
-        public override float Precio()
-        {
-            return 0;
-        }
-        public override float Salud()
-        {
-            return 0;
-        }
-        public override float Ataque()
-        {
-            return 0;
-        }
 
-        public override float Turnos()
+
+        public Arquero(float precio, float salud, float turnos, float ataque)
         {
-            return 0;
+            this.precio = precio;
+            this.salud = salud;
+            this.turnos = turnos;
+            this.ataque = ataque;
         }
     }
 }
