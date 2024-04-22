@@ -19,9 +19,5 @@ namespace Trabajo_Grupal
         {
             a = 5;
         }
-
-        public override float Precio() { return precio; }
-        public override float Salud() { return salud; }
-        public override float Turnos() { return turnos; }
     }
 }

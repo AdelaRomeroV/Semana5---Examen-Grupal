@@ -13,8 +13,8 @@ namespace Trabajo_Grupal
         public float turnos;
 
         public virtual void Beneficio(float a) { }
-        public virtual float Precio() { return 0; }
-        public virtual float Salud() { return 0; }
-        public virtual float Turnos() { return 0; }
+        public virtual float Precio() { return precio; }
+        public virtual float Salud() { return salud; }
+        public virtual float Turnos() { return turnos; }
     }
 }
