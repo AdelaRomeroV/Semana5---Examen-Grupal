@@ -11,8 +11,8 @@ namespace Trabajo_Grupal
         public float turno;
         public float EnemigosEliminados;
         public float EstructurasConstruidas;
+        public float Energia;       
 
-        bool continueFlag = true;
         public void Stars()
         {
             Console.WriteLine("Bienvenido a juego de estrategia");
@@ -65,7 +65,7 @@ namespace Trabajo_Grupal
 
         public void PasarTurno()
         {
-
+            Energia += turno;
         }
 
         public void IniciarCombate()
