@@ -23,23 +23,29 @@ namespace Trabajo_Grupal
             Console.WriteLine("1. Ver base");
             Console.WriteLine("2. Construir Estructura");
             Console.WriteLine("3. Construir Unidad");
-            Console.WriteLine("4. ");
-            Console.WriteLine("5. Iniciar Combate");
+            Console.WriteLine("4. Iniciar Combate");
+            Console.WriteLine("5. Pasar turno");
 
             int opt = int.Parse(Console.ReadLine());
 
             switch (opt) 
             {
                 case 1:
-                    
+                    VerBase();
                     break;
 
                 case 2:
-                    
+                    ConstruirEstructura();
+                    break;
+
+                case 3:
+                    ConstruirUnidad();
+                    break;
+
+                case 4:
+                    PasarTurno();
                     break;
             }
-
-
         }
 
         public void VerBase()
