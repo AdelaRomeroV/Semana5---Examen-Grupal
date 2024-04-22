@@ -8,10 +8,6 @@ namespace Trabajo_Grupal
 {
     internal class Casa : Estructura
     {
-        public float precio;
-        public float salud;
-        public float turnos;
-
         public Casa(float precio, float salud, float turnos) 
         {
             this.precio = precio;

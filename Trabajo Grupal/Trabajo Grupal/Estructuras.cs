@@ -8,6 +8,10 @@ namespace Trabajo_Grupal
 {
     internal class Estructura
     {
+        public float precio;
+        public float salud;
+        public float turnos;
+
         public virtual void Beneficio(float a) { }
         public virtual float Precio() { return 0; }
         public virtual float Salud() { return 0; }

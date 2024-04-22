@@ -43,8 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arquero.cs" />
+    <Compile Include="Casa.cs" />
+    <Compile Include="Estructuras.cs" />
+    <Compile Include="Granja.cs" />
+    <Compile Include="Juego.cs" />
+    <Compile Include="Oponente.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Pueblo.cs" />
+    <Compile Include="Soldado.cs" />
+    <Compile Include="Torre.cs" />
+    <Compile Include="Unidades.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
