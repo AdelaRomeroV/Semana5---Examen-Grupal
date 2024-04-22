@@ -10,6 +10,9 @@ namespace Trabajo_Grupal
     {
         static void Main(string[] args)
         {
+            Juego juego = new Juego();
+            juego.Stars();
+            Console.WriteLine();
         }
     }
 }
