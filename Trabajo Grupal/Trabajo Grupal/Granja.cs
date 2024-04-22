@@ -6,7 +6,26 @@ using System.Threading.Tasks;
 
 namespace Trabajo_Grupal
 {
-    internal class Granja
+    internal class Granja : Estructura
     {
+        public float precio;
+        public float salud;
+        public float turnos;
+
+        public Granja(float precio, float salud, float turnos)
+        {
+            this.precio = precio;
+            this.salud = salud;
+            this.turnos = turnos;
+        }
+
+        public override void Beneficio(float a)
+        {
+            a += 5;
+        }
+
+        public override float Precio() { return precio; }
+        public override float Salud() { return salud; }
+        public override float Turnos() { return turnos; }
     }
 }
