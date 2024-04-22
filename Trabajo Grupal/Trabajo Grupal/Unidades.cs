@@ -8,19 +8,19 @@ namespace Trabajo_Grupal
 {
     internal class Unidades
     {
-        public float Precio()
+        public virtual float Precio()
         {
             return 0;
         }
-        public float Salud()
+        public virtual float Salud()
         {
             return 0;
         }
-        public float Ataque()
+        public virtual float Ataque()
         {
             return 0;
         }
-        public float Turnos()
+        public virtual float Turnos()
         {
             return 0;
         }
