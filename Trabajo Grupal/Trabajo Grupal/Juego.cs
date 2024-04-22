@@ -11,10 +11,12 @@ namespace Trabajo_Grupal
         public float turno;
         public float EnemigosEliminados;
         public float EstructurasConstruidas;
-        public float Energia;       
+        public float Energia;
 
+        Pueblo pueblo;
         public void Stars()
         {
+            pueblo = new Pueblo();
             Console.WriteLine("Bienvenido a juego de estrategia");
 
             Console.WriteLine("Inicia el juego");
@@ -50,26 +52,28 @@ namespace Trabajo_Grupal
 
         public void VerBase()
         {
-
+            pueblo.VerBase();
         }
 
         public void ConstruirEstructura()
         {
-
+            pueblo.ConstruirEstructura();
         }
 
         public void ConstruirUnidad()
         {
-
+            pueblo.ConstruirBase();
         }
 
         public void PasarTurno()
         {
-            Energia += turno;
+            pueblo.Energia += 20;
+
         }
 
         public void IniciarCombate()
         {
+
 
         }
     }
